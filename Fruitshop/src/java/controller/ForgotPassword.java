@@ -134,10 +134,12 @@ public class ForgotPassword extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         String passString = request.getParameter("passwordforgot");
-        String user = request.getParameter("username");
+        HttpSession session = request.getSession();
+        String user = (String) session.getAttribute("userforget");
         Users u = new Users();
         boolean rs = u.changePass(user, passString);
         if (rs) {
+            
             request.setAttribute("mess", "login");
             request.getRequestDispatcher("forgotpass.jsp").forward(request, response);
         } else {

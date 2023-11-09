@@ -56,7 +56,7 @@ public class ManagementController extends HttpServlet {
             } else if (action.equals("Delete")) {
                 String id = request.getParameter("deleteId");
                 ProductDAO dao = new ProductDAO();
-                if (dao.deleteOrder(id)) {
+                if (dao.deleteProduct(id)) {
                    response.sendRedirect("manage");
                 } else {
                    response.sendRedirect("404.jsp");

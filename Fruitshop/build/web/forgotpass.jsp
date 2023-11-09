@@ -66,7 +66,6 @@
 
                                             <div class="row justify-content-around">
                                                 <div class="form-outline mb-4">
-                                                    <input type="hidden" name="username" value="${sessionScope.userforget}">
                                                     <label class="form-label" for="password">Password <span class="text-danger">*</span></label>
                                                     <input type="password" id="password" class="form-control form-control" name="passwordforgot"/>
                                                     <span id="error-pass" class="text-danger"></span>
@@ -75,10 +74,10 @@
                                                 <div class="form-outline mb-4">
                                                     <label class="form-label" for="repeatPassword">Repeat your password <span class="text-danger">*</span></label>
                                                     <input type="password" id="repeatPassword" class="form-control form-control"/>
-                                                    <span id="message error-repass" class="text-danger"></span>
+                                                    <span id="error-repass" class="  text-danger"></span>
                                                 </div>
                                             </div>                                      
-
+                                            <span id="message" class=" message text-danger"></span>
                                             <div class="d-flex justify-content-center">
                                                 <button type="submit"
                                                         class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Reset</button>
@@ -160,9 +159,7 @@
 
         <script>
 
-            showHide("cancelButton", "cancelButton", "myPopupSignup", "none");
-            checkfill("#forgotpass", "#password", "#error-pass", "Please fill this field!");
-            checkfill("#forgotpass", "#repeatPassword", "#error-repass", "Please fill this field!");
+
 
             const passwordForm = document.getElementById("forgotpass");
             const password = document.getElementById("password");
@@ -175,6 +172,9 @@
                     e.preventDefault();
                 }
             });
+            showHide("cancelButton", "cancelButton", "myPopupSignup", "none");
+            checkfill("#forgotpass", "#password", "#error-pass", "Please fill this field!");
+            checkfill("#forgotpass", "#repeatPassword", "#error-repass", "Please fill this field!");
 
         </script>
         <!-- jquery -->
@@ -197,10 +197,5 @@
         <script src="assets/js/sticker.js"></script>
         <!-- main js -->
         <script src="assets/js/main.js"></script>
-        <script>
-            checkfill("#login", "#username", "#error-user", "Please enter username!");
-            checkfill("#login", "#password", "#error-pass", "Please enter password!");
-
-        </script>
     </body>
 </html>

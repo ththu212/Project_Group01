@@ -90,7 +90,7 @@
                                 <td class="align-middle text-center">Ship COD</td>
                             </c:if>
                             <c:if test="${order.pay == 1}">
-                                <td class="align-middle text-white text-center w-50 pr-4 pl-4 pt-1 pb-1 rounded bg-success">Đã thanh toán</td>
+                                <td class="align-middle text-success">Đã thanh toán</td>
                             </c:if>
                             <td class="align-content-between text-right">
                                 <c:url var="huy" value="listorder">

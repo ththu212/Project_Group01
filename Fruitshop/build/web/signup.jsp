@@ -61,7 +61,8 @@
                                 <div class="card" style="border-radius: 15px;">
                                     <div class="card-body p-5">
                                         <h2 class="text-uppercase text-center mb-5">Sign Up</h2>
-                                        <span id="error-user" class="text-danger text-center mb-2">${mess}</span>
+                                        <span id="error-user" class="align-content-center text-danger text-center mb-2">${mess}</span>
+
                                     <form id="signupform" action="signup" method="post">
                                         <div class="row justify-content-around">
                                             <div class="form-outline mb-4">
@@ -85,9 +86,11 @@
                                             <div class="form-outline mb-4">
                                                 <label class="form-label" for="repeatPassword">Repeat your password <span class="text-danger">*</span></label>
                                                 <input type="password" id="repeatPassword" class="form-control form-control"/>
-                                                <span id="message error-repass" class="text-danger"></span>
+                                                <span id="error-repass" class=" text-danger"></span>
+
                                             </div>
                                         </div>
+                                        <span id="message" class="align-middle text-danger mb-2"></span>
                                         <div class="row justify-content-around"><div class="form-outline mb-4">
                                                 <label class="form-label" for="email">Your Email <span class="text-danger">*</span></label>
                                                 <input type="email" id="email" class="form-control form-control" name="emailsignup" />

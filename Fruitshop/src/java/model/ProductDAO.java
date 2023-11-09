@@ -154,7 +154,7 @@ public class ProductDAO {
         return result;
     }
 
-    public boolean deleteOrder(String Id) {
+    public boolean deleteProduct(String Id) {
         boolean rerult = false;
         String query = "UPDATE [dbo].[Product]\n"
                 + "                SET [status] = 0\n"

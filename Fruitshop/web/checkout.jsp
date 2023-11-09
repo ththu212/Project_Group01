@@ -177,7 +177,7 @@
                                         <tr>
                                             <td>Total</td>
                                             <td>
-                                                <input class="input-group d-inline p-0 border-0" type="number" name="total"  value="${amount}" readonly>VND
+                                                VND<input class="input-group d-inline p-0 border-0" type="number" name="total"  value="${amount}" readonly>
                                                 <input class="input-group d-inline p-0 border-0" type="hidden" name="quantity" id="total-input-quantity" value="${quan}" readonly>
                                                 <input class="input-group d-inline p-0 border-0" type="hidden" name="pay"  value="${pay}" readonly>
                                                 <input type="hidden" name="payonl"  value="${payonl}">
