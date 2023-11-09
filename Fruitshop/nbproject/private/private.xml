@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/Prj301/Fruitshop/web/list-order.jsp</file>
+            <file>file:/D:/Prj301/Fruitshop/src/java/model/ProductDAO.java</file>
+            <file>file:/D:/Prj301/Fruitshop/src/java/controller/LogoutController.java</file>
+            <file>file:/D:/Prj301/Fruitshop/web/manage-order.jsp</file>
+            <file>file:/D:/Prj301/Fruitshop/web/infomation.jsp</file>
+            <file>file:/D:/Prj301/Fruitshop/web/LoginPage.jsp</file>
+            <file>file:/D:/Prj301/Fruitshop/web/menu.jsp</file>
+            <file>file:/D:/Prj301/Fruitshop/src/java/controller/OrderPlaceController.java</file>
+            <file>file:/D:/Prj301/Fruitshop/web/forgotpass.jsp</file>
+            <file>file:/D:/Prj301/Fruitshop/web/single-news.jsp</file>
+            <file>file:/D:/Prj301/Fruitshop/web/index.jsp</file>
+            <file>file:/D:/Prj301/Fruitshop/web/signup.jsp</file>
+            <file>file:/D:/Prj301/Fruitshop/web/Manager.jsp</file>
+            <file>file:/D:/Prj301/Fruitshop/src/java/controller/CheckoutController.java</file>
+            <file>file:/D:/Prj301/Fruitshop/src/java/controller/SearchController.java</file>
+            <file>file:/D:/Prj301/Fruitshop/web/contact.jsp</file>
+            <file>file:/D:/Prj301/Fruitshop/src/java/controller/LoginController.java</file>
+            <file>file:/D:/Prj301/Fruitshop/src/java/controller/ProductController.java</file>
+            <file>file:/D:/Prj301/Fruitshop/src/java/connect/DBConnect.java</file>
+            <file>file:/D:/Prj301/Fruitshop/src/java/model/Users.java</file>
+            <file>file:/D:/Prj301/Fruitshop/src/java/controller/AccountController.java</file>
+            <file>file:/D:/Prj301/Fruitshop/web/shop.jsp</file>
+            <file>file:/D:/Prj301/Fruitshop/web/about.jsp</file>
+            <file>file:/D:/Prj301/Fruitshop/web/cart.jsp</file>
+            <file>file:/D:/Prj301/Fruitshop/src/java/controller/CartController.java</file>
+            <file>file:/D:/Prj301/Fruitshop/src/java/controller/ForgotPassword.java</file>
+            <file>file:/D:/Prj301/Fruitshop/web/404.jsp</file>
+            <file>file:/D:/Prj301/Fruitshop/web/single-product.jsp</file>
+            <file>file:/D:/Prj301/Fruitshop/web/css/style-welcome.css</file>
+            <file>file:/D:/Prj301/Fruitshop/src/java/controller/HomeController.java</file>
+            <file>file:/D:/Prj301/Fruitshop/src/java/controller/AddCart.java</file>
+            <file>file:/D:/Prj301/Fruitshop/src/java/model/CartDAO.java</file>
+            <file>file:/D:/Prj301/Fruitshop/web/news.jsp</file>
+        </group>
+    </open-files>
+</project-private>
