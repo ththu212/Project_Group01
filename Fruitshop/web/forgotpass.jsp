@@ -129,7 +129,7 @@
 
 
                     <div class="d-flex justify-content-between mt-4">
-                        <a class="" href="login">Login</a>
+                        <a class="" href="loginpage">Login</a>
                         <a class="" href="signup">Register</a>
                     </div>
                 </div>

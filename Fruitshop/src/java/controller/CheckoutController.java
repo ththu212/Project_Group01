@@ -206,7 +206,7 @@ public class CheckoutController extends HttpServlet {
                 + "                                    </div>\n"
                 + "                                    <div class=\"col-md-4\">\n"
                 + "                                        <p class=\"text-muted mb-0\"><span class=\"fw-bold me-4\">Delivery Charges </span>Free</p>\n"
-                + "                                        <p class=\"orderNote description-scroll-detail text-muted mb-0\">Note: <span class=\"fw-bold me-4 text-dark text-right\"></span></p>\n"
+                + "                                        <p class=\"orderNote description-scroll-detail text-muted mb-0\">Note: <span class=\"fw-bold me-4 text-dark text-right\">"+note+"</span></p>\n"
                 + "                                    </div>\n"
                 + "\n"
                 + "\n"

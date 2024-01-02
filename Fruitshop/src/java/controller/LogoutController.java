@@ -44,8 +44,7 @@ public class LogoutController extends HttpServlet {
         session.removeAttribute("user");
         session.removeAttribute("info");
         session.removeAttribute("username");
-        RequestDispatcher requestDispatcher = request.getRequestDispatcher("home");
-        requestDispatcher.forward(request, response);
+        response.sendRedirect("home");
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
